@@ -1,0 +1,11 @@
+{
+    "is_testnet": true,
+    "secret_key": "YourSecretKeyFromHyperliquid",
+    "account_address": "YourMainAddress",
+    "coin": "ETH",
+    "size": 0.05,
+    "price_diff": 0.03,
+    "price_decrease_interval": 1,
+    "price_decrease_percent": 10,
+    "slippage": 0.1
+}
