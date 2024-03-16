@@ -66,6 +66,7 @@ def worker_simple():
                 try:
                     filled = status["filled"]
                     print(currentTime(), f'Order #{filled["oid"]} filled {filled["totalSz"]} @{filled["avgPx"]}')
+                    sleep(10)
                 except KeyError:
                     print(currentTime(), f'Error: {status["error"]}')
     
