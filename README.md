@@ -8,7 +8,7 @@
 วิธีการติดตั้ง
 -------------------
 
-1. ติดตั้ง (Python)[https://www.python.org/downloads/] และ [Git](https://git-scm.com/downloads)
+1. ติดตั้ง [Python](https://www.python.org/downloads/) และ [Git](https://git-scm.com/downloads)
 
 2. สร้าง Account HyperLiquid ที่
 
