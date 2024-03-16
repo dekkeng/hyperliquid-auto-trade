@@ -10,11 +10,21 @@
 
 1. ติดตั้ง Python และ Git
 
-2. สร้าง Account HyperLiquid ที่นี่ https://app.hyperliquid.xyz/join/DEKKENG
+2. สร้าง Account HyperLiquid ที่
+
+Mainnet: https://app.hyperliquid.xyz/join/DEKKENG 
+
+Testnet: https://app.hyperliquid-testnet.xyz/join/DEKKENG
 
 3. โอนเงินเข้าไปในกระเป๋า และเปิด Enable Trading ให้เรียบร้อย 
 
-4. สร้าง API key ใน https://app.hyperliquid.xyz/API ก็อป Private Key เก็บไว้
+4. สร้าง API key ใน 
+
+Mainnet: https://app.hyperliquid.xyz/API 
+
+Testnet: https://app.hyperliquid-testnet.xyz/API 
+
+ก็อป Private Key เก็บไว้
 
 5. เปิด Powershell 
 
@@ -34,7 +44,7 @@ cp config.json.sample config.json
 
 แก้ไข ```is_testnet``` เป็น false หากต้องการใช้งานบน mainnet
 
-แก้ไข ```secret_key``` เป็น Private Key ตอนที่สร้าง API Key ในข้อ 2
+แก้ไข ```secret_key``` เป็น Private Key ตอนที่สร้าง API Key ในข้อ 4
 
 แก้ไข ```account_address``` เป็น Address กระเป๋าหลัก (ไม่ใช่กระเป๋า API นะครับ)
 
