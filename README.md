@@ -2,29 +2,17 @@
 
 แนะนำให้เริ่มต้นที่ $20 USD ขึ้นไป
 
-หากไม่ได้ใช้เงินต้นเท่านี้ ต้องปรับการตั้งค่า size ให้เหมาะสมต่อการ Trade 1 ครั้งว่าให้เปิด size เท่าไหร่ ตามมูลค่าเงินทุนที่มี
-
 -------------------
 วิธีการติดตั้ง
 -------------------
 
 1. ติดตั้ง [Python](https://www.python.org/downloads/) และ [Git](https://git-scm.com/downloads)
 
-2. สร้าง Account HyperLiquid ที่
-
-Mainnet: https://app.hyperliquid.xyz/join/DEKKENG 
-
-Testnet: https://app.hyperliquid-testnet.xyz/join/DEKKENG
+2. สร้าง Account HyperLiquid ที่ [Mainnet](https://app.hyperliquid.xyz/join/DEKKENG) หรือ [Testnet](https://app.hyperliquid-testnet.xyz/join/DEKKENG)
 
 3. โอนเงินเข้าไปในกระเป๋า และเปิด Enable Trading ให้เรียบร้อย 
 
-4. สร้าง API key ใน 
-
-Mainnet: https://app.hyperliquid.xyz/API 
-
-Testnet: https://app.hyperliquid-testnet.xyz/API 
-
-ก็อป Private Key เก็บไว้
+4. สร้าง API key ใน [Mainnet](https://app.hyperliquid.xyz/API) หรือ [Testnet](https://app.hyperliquid-testnet.xyz/API) แล้วก็อป Private Key เก็บไว้
 
 5. เปิด Powershell 
 
