@@ -10,9 +10,15 @@
 
 1. ติดตั้ง Python และ Git
 
-2. เปิด Powershell 
+2. สร้าง Account HyperLiquid ที่นี่ https://app.hyperliquid.xyz/join/DEKKENG
 
-3. พิมพ์คำสั่ง 
+3. โอนเงินเข้าไปในกระเป๋า และเปิด Enable Trading ให้เรียบร้อย 
+
+4. สร้าง API key ใน https://app.hyperliquid.xyz/API ก็อป Private Key เก็บไว้
+
+5. เปิด Powershell 
+
+6. พิมพ์คำสั่ง 
 
 ```
 pip install -r .\requirements.txt
@@ -22,7 +28,19 @@ pip install -r .\requirements.txt
 cp config.json.sample config.json
 ```
 
-4. notepad config.json
+7. notepad config.json
+
+แก้ไขการตั้งค่าต่างๆ 
+
+แก้ไข ```is_testnet``` เป็น false หากต้องการใช้งานบน mainnet
+
+แก้ไข ```secret_key``` เป็น Private Key ตอนที่สร้าง API Key ในข้อ 2
+
+แก้ไข ```account_address``` เป็น Address กระเป๋าหลัก (ไม่ใช่กระเป๋า API นะครับ)
+
+แก้ไข ```coin``` เหรียญที่ต้องการเปิด Order
+
+แก้ไข ```size``` ขนาดต่อการเปิด Order 1 ครั้ง ตามหน่วยสกุล coin ที่ตั้งไว้ (แนะนำให้ตั้งค่าไว้น้อยกว่าจำนวน USD ที่มี ประมาณ 10% เพื่อป้องกันเงินไม่พอเปิด Order เมื่อราคาเปลี่ยนไป)
 
 5. พิมพ์คำสั่ง 
 
